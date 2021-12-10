@@ -1,0 +1,9 @@
+<template>
+    <div style="width:200px; padding-left:50px">
+        <lightning-input class="email" label="Enter email" name="email"></lightning-input>
+        <br>
+        <lightning-input type="password" label="Password field with placeholder" name="input3" placeholder="Enter Password">
+    </lightning-input>
+        <lightning-button label="Click" onclick={handleClick} variant="brand"></lightning-button>
+        </div>
+</template>
